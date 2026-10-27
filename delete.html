@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>データの削除 - ことのは keyboard</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1c1c1e;--muted:#6e6e73;--line:#e5e5ea;--accent:#2f6fde}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--fg:#f2f2f7;--muted:#a1a1a6;--line:#2c2c2e;--accent:#7aa7ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.8 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:24px;line-height:1.4;margin:0 0 4px}
+.meta{color:var(--muted);font-size:14px;margin:0 0 24px}
+h2{font-size:18px;margin:32px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
+p,li{overflow-wrap:anywhere} a{color:var(--accent)}
+</style></head><body><main>
+<h1>ことのは keyboard のデータの削除</h1>
+<p class="meta">Android 用日本語キーボード「ことのは keyboard」（jp.age.kotonoha）／ 2026年10月27日</p>
+<h2>アプリから削除する手順</h2>
+<ol>
+<li>端末で「ことのは keyboard」のアプリを開きます（キーボードの設定画面）。</li>
+<li>「クラウド」を開きます。</li>
+<li>「サーバー上のデータを削除」を押し、確認画面で削除します。</li>
+</ol>
+<p>削除と同時に、クラウド変換と改善データの提供はオフになります。メールアドレスなどの登録はないため、アプリの中から本人確認なしで削除できます。</p>
+<h2>削除されるデータ</h2>
+<ul>
+<li>匿名ID（同意した時に端末ごとに発行したもの）</li>
+<li>同意の記録（同意した文面の版と日時）</li>
+<li>1日の照会回数</li>
+<li>集計前の改善データ（読みと選んだ候補の組）</li>
+</ul>
+<h2>削除されずに残るもの・保持期間</h2>
+<ul>
+<li>集計済みの回数（だれのものか分からない形）：30日間保持して削除します。</li>
+<li>共有辞書に採用された語：個人と結びつかない形で、辞書に残ります。</li>
+<li>サーバー基盤の通信記録（IPアドレスなど）：Supabase の基盤で一定期間保持されます。</li>
+</ul>
+<h2>アプリを削除してしまった場合</h2>
+<p>匿名IDは端末の中にしかないため、アプリを削除した後はサーバー上のデータを本人のものと特定できません。照会回数は2日、集計前の改善データは48時間で自動的に削除されます。同意の記録は残ります。アプリを削除する前に、上の手順で削除してください。</p>
+<h2>お問い合わせ</h2>
+<p><a href="mailto:virtualknowledge.support@gmail.com">virtualknowledge.support@gmail.com</a></p>
+<p><a href="./">プライバシーポリシー</a></p>
+</main></body></html>
